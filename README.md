@@ -23,3 +23,11 @@ chmod 777 get_wls_credentials.sh
 ./get_wls_credentials.sh
 
 ```
+
+
+
+
+
+* Author, Youssef Sbai idrissi
+* Version, 0.1.0
+* Status, still in progress
