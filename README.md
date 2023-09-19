@@ -5,7 +5,7 @@
 This repository contains a collection of Linux scripts that are useful for system administration, software integration, and various other tasks.
 
 ## Table of Contents
-- [Convert JSONL to JSON](#jsonl-to-json)
+- [Convert JSONL to JSON](#convert-jsonl-to-json)
 - [System Diagnostic](#system-diagnostic)
 - [Get Weblogic Credentials](#get-weblogic-credentials)
 - [Project Details](#project-details)
