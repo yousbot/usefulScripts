@@ -5,11 +5,18 @@
 This repository contains a collection of Linux scripts that are useful for system administration, software integration, and various other tasks.
 
 ## Table of Contents
+- [Convert JSONL to JSON](#jsonl-to-json)
 - [System Diagnostic](#system-diagnostic)
 - [Get Weblogic Credentials](#get-weblogic-credentials)
 - [Project Details](#project-details)
 
 ---
+
+## Convert JSONL to JSON
+
+This scripts aims to convert JSONL files into JSON files, in the most optimum way. It works on very large files and datasets( > 20 GB )
+
+**To run the script, just open file and change source and destination file in function in last line.**
 
 ## System Diagnostic
 
