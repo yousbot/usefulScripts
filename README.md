@@ -17,7 +17,7 @@ This Python script estimates the uncompressed size of a Gzip file without actual
 !! Only supports gz file
 **To run the script, execute the following command:**
 ```bash
-python3 simulate_decompression.py <example_file.gz>
+python simulate_decompression.py <example_file.gz>
 ```
 ---
 ## Convert JSONL to JSON
