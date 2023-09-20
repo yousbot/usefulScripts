@@ -13,11 +13,12 @@ This repository contains a collection of Linux scripts that are useful for syste
 
 ---
 ## Simulate File Decompression
-This Python script estimates the uncompressed size of a Gzip file without actually writing the decompressed data to disk.
-!! Only supports gz file
+A Python script to estimate the uncompressed size of compressed files without actually decompressing them.
+*Supported formats : gz, zip, tar, bz2, xz.*
+
 **To run the script, execute the following command:**
 ```bash
-python simulate_decompression.py <example_file.gz>
+python simulate_decompression.py <file_path>
 ```
 ---
 ## Convert JSONL to JSON
