@@ -7,7 +7,7 @@
 **Creator**: Youssef Sbai Idrissi, Data Engineer  
 **Date**: 10/09/2019  
 
-> **Note**: This guide assumes that TSM 8.1 supports migration from Windows to Linux. For the most up-to-date information, consult IBM's official documentation.
+> **Note**: The guide serves as a comprehensive step-by-step manual for migrating TSM 8.1 from a Windows to a Linux server.
 
 ---
 
