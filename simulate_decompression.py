@@ -26,7 +26,7 @@ def simulate_tar_decompression(tar_file_path):
         return sum(info.size for info in tar_ref)
 
 def simulate_other_decompression(file_path):
-    # This is a placeholder. Actual decompression simulation for other formats can be complex and may require third-party tools.
+    print('Format not supported !')
     return None
 
 def simulate_decompression(file_path):
