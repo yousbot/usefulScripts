@@ -14,7 +14,6 @@
 ## Steps
 
 ### 1. Export DDL Schema from Database
-
 ```bash
 db2look -d tsmdb1 -createdb -a -e -m -l -x -f -o TSMDB1_MONKEYS.ddl -td "@"
 ```
@@ -31,9 +30,9 @@ db2move tsmdb1 export -aw -u Administrateur -p P@ssw0rd
 
 - Replace "Administrateur" with "TSNINST1"
 
-    ```bash
-    :%s/ADMINISTRATEUR/TSMINST1
-    ```
+```bash
+:%s/ADMINISTRATEUR/TSMINST1
+```
 
 - Update the paths as necessary.
 
@@ -45,11 +44,11 @@ dsmserv removedb tsmdb1
 
 > **Troubleshooting**: In case of issues, execute the following commands:
 
-    ```bash
-    db2 quiesce db immediate
-    db2 force application all
-    db2 drop database tsmdb1
-    ```
+```bash
+db2 quiesce db immediate
+db2 force application all
+db2 drop database tsmdb1
+```
 
 ### 5. Format TSM Database
 
